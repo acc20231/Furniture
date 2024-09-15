@@ -14,7 +14,7 @@ def index(request):
 
 def about(request):
     context = {
-        'title': 'Home -О нас',
+        'title': 'Home - О нас',
         'content': 'О нас ',
         'text_on_page': 'Обычный текс страницы'
     }
